@@ -5,7 +5,7 @@ class HomeScreen < PM::TableScreen
    [{
      title: "Menu",
      cells: [
-      { title:"Open Form", action: open_form}
+      { title:"Open Form", action: :open_form}
 
     ]
     }]
