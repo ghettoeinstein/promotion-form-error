@@ -1,13 +1,11 @@
 class HomeScreen < PM::TableScreen
 
-
   def table_data
    [{
-     title: "Menu",
-     cells: [
-      { title:"Open Form", action: :open_form}
-
-    ]
+      title: "Menu",
+      cells: [
+        { title:"Open Form", action: :open_form}
+      ]
     }]
   end
 
@@ -17,7 +15,8 @@ class HomeScreen < PM::TableScreen
 
   def open_form
     pmfs = PMFormScreen.new
-    pmfs.job = @j
-    open PMFormScreen.new
+    pmfs.job = @job
+    open pmfs
   end
 end
+

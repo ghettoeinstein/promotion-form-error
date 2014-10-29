@@ -5,7 +5,7 @@ class Job
     job_name = "Barter"
     job_number = "hello "
   end
-  
+
 
 
 end

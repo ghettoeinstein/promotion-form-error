@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
-require 'motion-cocoapods'
 
 begin
   require 'bundler'

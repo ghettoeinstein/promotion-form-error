@@ -1,5 +1,5 @@
 class PMFormScreen < PM::FormScreen
-  
+
   attr_accessor :job
 
   def form_data
@@ -39,10 +39,4 @@ class PMFormScreen < PM::FormScreen
     ]
     }]
   end
-
-
-
-
-
- 
 end

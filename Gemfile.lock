@@ -1,7 +1,14 @@
 GIT
+  remote: git://github.com/clearsightstudio/ProMotion-form.git
+  revision: b2e178b206e78c84d763d0cff7e46e5a994f46a4
+  specs:
+    ProMotion-form (0.2.3)
+      ProMotion (~> 2.0)
+      motion-cocoapods (~> 1.4)
+
+GIT
   remote: git://github.com/clearsightstudio/ProMotion.git
   revision: eb484fddb924753e98e2e675696aa2562d776abd
-  branch: master
   specs:
     ProMotion (2.0.1)
       methadone (~> 1.7)
@@ -9,9 +16,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    ProMotion-form (0.2.3)
-      ProMotion (~> 2.0)
-      motion-cocoapods (~> 1.4)
     activesupport (3.2.19)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
@@ -50,7 +54,7 @@ GEM
     json_pure (1.8.1)
     methadone (1.8.0)
       bundler
-    motion-cocoapods (1.6.0)
+    motion-cocoapods (1.7.0)
       cocoapods (>= 0.34)
     multi_json (1.10.1)
     nap (0.8.0)
@@ -66,6 +70,6 @@ PLATFORMS
 
 DEPENDENCIES
   ProMotion!
-  ProMotion-form
+  ProMotion-form!
   motion-cocoapods
   rake
