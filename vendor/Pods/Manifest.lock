@@ -2,7 +2,7 @@ PODS:
   - FXForms (1.2.7)
 
 DEPENDENCIES:
-  - FXForms
+  - FXForms (~> 1.2)
 
 SPEC CHECKSUMS:
   FXForms: 53d24d5e11f8f0c93f85ac4e1e53254ab37a9915
